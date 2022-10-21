@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title {
+  width: 1170px;
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #000;
+  margin-top: 62px;
+  text-align: center;
+}
+
+img {
+  width: 256px;
+  height: 153px;
+  margin: 30px auto 17px auto;
+}
+.content {
+  width: 1170px;
+  height: 718px;
+  display: flex;
+  justify-content: space-around;
+  align-items: space-around;
+  flex-wrap: wrap;
+}
+.item {
+  width: 270px;
+  height: 350px;
+  border: 1px solid #f6f7f8;
+  margin: 10px;
+}
+.line {
+  width: 231px;
+  height: 2px;
+  color: #f6f7f8;
+  margin-bottom: 19px;
+}
+.name {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 31px;
+}
+.price {
+  font-size: 16px;
+  color: #ff4858;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
